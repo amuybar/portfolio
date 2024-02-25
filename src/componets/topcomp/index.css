@@ -4,6 +4,7 @@
   max-width: 800px;
   margin: 0px auto;
   padding: 20px;
+  
   text-align: center;
   align-self: center;
   background-color: transparent;
@@ -18,14 +19,41 @@
     margin-bottom: 70px;
   }
   
-  .menu-button {
-    align-self: flex-end;
-    cursor: pointer;
-    
-  }
+ 
+.menu-button {
+  align-self: flex-end;
+  cursor: pointer;
+  position: relative;
   
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  width: 200px;
+  right: 0;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-menu div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #555;
+}
+
+  .icon{
+    font-size: 50px;
+  }
   .bottom-section {
     display: flex;
+  
     justify-content: space-between;
     width: 100%;
    
@@ -35,28 +63,6 @@
     font-size: 22px;
   }
   
-  .circular-button {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #525050; 
-    color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .circular-button :hover {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #1463da; 
-    color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 25px;
-  }
+
+
   
