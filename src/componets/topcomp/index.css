@@ -1,12 +1,15 @@
 /* TopContainer.css */
 
 .top-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: transparent; 
-    color: #fff; 
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  background-color: transparent;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 0 10px transparent; 
   }
   
   .title {
@@ -29,19 +32,31 @@
   }
   
   .name {
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .circular-button {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    background-color: #3f3e3e; 
+    background-color: #525050; 
     color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     font-size: 20px;
+  }
+  .circular-button :hover {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1463da; 
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 25px;
   }
   

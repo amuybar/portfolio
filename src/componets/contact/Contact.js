@@ -43,9 +43,9 @@ const Contact = () => {
        
         <h2 className="contact-title">Connect with Me</h2>
         <p className="contact-info">
-          Email: your.email@example.com<br />
-          LinkedIn: linkedin.com/in/your-profile<br />
-          Twitter: @yourTwitterHandle
+
+          Email: odaribq@gmail.com.com<br />
+          Twitter: @Baraq_odari
         </p>
       </div>
     </div>

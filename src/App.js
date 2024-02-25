@@ -7,12 +7,15 @@ import RecPro from './componets/rctpro/index.js'
 import TopContainer from './componets/topcomp/index.js';
 import Contact from './componets/contact/Contact.js';
 import Footer from './componets/footer/index.js';
+import Skills from './componets/skills/index.js';
+
 
 const App = () => {
   return (
     <div>
       <TopContainer />
       <About />
+      <Skills/>
       <PyPro />
       <FltPro />
       <RecPro />
