@@ -1,0 +1,55 @@
+.elevated-card {
+    background-color: #000;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .elevated-card header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-button {
+    color: blue;
+    /* Style your icon button */
+  }
+  
+  .title {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-image.active {
+    transform: translateX(0);
+  }
+  
+  .carousel-image + .carousel-image {
+    transform: translateX(100%);
+  }
+  
+  .center-button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

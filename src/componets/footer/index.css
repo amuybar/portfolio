@@ -1,0 +1,25 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    color: #fff; /* White color for social icons */
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
