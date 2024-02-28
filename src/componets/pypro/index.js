@@ -9,9 +9,9 @@ const PyPro = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { id: 1, src: '/images/Screenshot from 2024-02-22 06-49-36.png' },
-    { id: 2, src: '/images/Screenshot from 2024-02-22 06-50-26.png' },
-    { id: 3, src: '/images/Screenshot from 2024-02-22 06-50-33.png' },
+    { id: 1, src: '/images/ux_profile.png' },
+    { id: 2, src: '/images/ux_home.png' },
+    { id: 3, src: '/images/ux_profile.png' },
   ];
 
   const openPopup = (image) => {

@@ -6,8 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(49, 48, 48));
-    color: white;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(190, 188, 188));
+    color: rgb(0, 0, 0);
     font-family: 'Arial', sans-serif; 
   }
   

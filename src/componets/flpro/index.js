@@ -9,9 +9,9 @@ const FlPro = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { id: 1, src: '/images/Screenshot from 2024-02-22 15-38-18.png' },
-    { id: 2, src: '/images/Screenshot from 2024-02-22 15-51-15.png' },
-    { id: 3, src: '/images/Screenshot from 2024-02-22 08-09-51.png' },
+    { id: 1, src: '/images/ux_signup.png' },
+    { id: 2, src: '/images/ux_profile.png' },
+    { id: 3, src: '/images/ux_chat.png' },
   ];
 
   const openPopup = (image) => {
