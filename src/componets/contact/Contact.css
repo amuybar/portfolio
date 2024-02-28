@@ -6,10 +6,10 @@
   padding: 20px;
   text-align: center;
   align-self: center;
-  background-color: rgba(24, 23, 23, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   width: 80%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+  box-shadow: 0 0 10px rgba(230, 230, 230, 0.8); 
   }
   
   .contact-column {
@@ -19,9 +19,9 @@
     text-align: center;
     margin: 20px;
     align-self: center;
-    background-color: rgba(24, 23, 23, 0.9);
+    background-color: rgba(2, 2, 2, 0.9);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+    box-shadow: 0 0 10px rgba(139, 138, 138, 0.8); 
   }
   
   .contact-title {
